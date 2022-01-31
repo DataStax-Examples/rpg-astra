@@ -1,45 +1,27 @@
-# Astra RPG
+<!--- STARTEXCLUDE --->
 
-This example will is a simple RPG application that allows you to add skills and allocation skill points to them, gaining you real experience and levels as a result.
+# Build an Astra DB RPG
 
-<img src="./example.jpg" alt="Astra RPG" />
+_30 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-rpg/blob/master/README.md#quick-start)_
 
-## 🎯 Objectives
-* Create your own **RPG** app by cloning the project
-* Learn about **Astra DB** with webapp development
-* Use **React** with **state** and **props**
-* Use **Netlify** to create a simple API
+This example is a simple RPG application that allows you to add skills and allocate skill points to them, gaining you experience and levels as a result.
 
-## 📝 Getting Started
+<!--- ENDEXCLUDE --->
 
-The requirements needed are quite simple, which include an account for Astra DB (free), having Netlify CLI.
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-rpg/master/hero.jpg)
 
-- [Astra DB](https://dtsx.io/3DpCALm)
-- [Netlify](https://www.netlify.com/)
+## Quick Start
 
+<!--- STARTEXCLUDE --->
+- [Signup for DataStax Astra](https://dtsx.io/3DpCALm), or login to your already existing account.
+- [Create an Astra DB Database](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db) if you don't already have one.
+<!--- ENDEXCLUDE --->
+- [Create an Astra DB Keyspace](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db-keyspace) called `sag_rpg` in your database.
+- [Generate an Application Token](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-application-token) with the role of `Database Administrator` for the Organization that your Astra DB is in.
+- Click the 'Open in Gitpod' link: [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-rpg)
+- Once the app is finished launching in the Gitpod IDE, copy the `env.example` file to a file named `.env` and fill the required values in from your Application Token and [Astra DB connection settings](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-your-astra-db-connection-settings).
+- Start the example by running `npm run dev` in the Gitpod console.
 
-### 1. AstraDB and create database
+## Objectives
 
-Register a DataStax Astra account `Github`, `Google` accounts or register with an `email`.
-
-Create a database with a keyspace of `rpg`
-
-Once the database is created and the status is active `Active` we can move onto the next step.
-
-### 2. Create a security token
-
-Create a security token for with Database Permissions and use the keys to populate the `.env-template` file which should be renamed to `.env`.
-
-### 3. Launch the RPG app
-
-Ensure Netlify is installed, if it is not, install the CLI by running the following command:
-
-```
-npm install -g netlify-cli
-```
-
-Then you can run the application locally using
-
-```
-netlify dev
-```
+Launch and explore an example of a RPG app in [Gitpod](https://www.gitpod.io/), built with [React](https://reactjs.org/) and [Netlify](https://www.netlify.com).

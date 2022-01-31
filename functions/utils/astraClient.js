@@ -20,7 +20,7 @@ const getCollection = async () => {
   const documentClient = await getAstraClient();
   return documentClient
     .namespace(process.env.ASTRA_DB_KEYSPACE)
-    .collection("skills");
+    .collection("sag_skills");
 };
 
 module.exports = { getAstraClient, getCollection };
